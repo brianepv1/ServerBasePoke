@@ -1,0 +1,15 @@
+|  Use " | " para colocar comentarios  |
+|--------------------------------------|
+|       Exemplo de configuração        |
+|--------------------------------------|
+|site: link do download do arquivo que voce quer baixar(use download direto)
+|arquivo: nome e extenção do arquivo
+|diretorio: pasta onde o arquivo tem que ser colocado ex: modules/client_game/ (obs: deixe vazio se ele vai ser colocado na pasta raiz ex:site;arquivo;;fechar)
+|fechar: (true ou false) use se ele faz alterações no executável do client
+|
+|Ex: site;arquivo;diretorio;fechar
+|
+|----------------------------------------------------------------------------------------------|
+|                use sempre letra minuscula para colocar true ou false                         |
+|----------------------------------------------------------------------------------------------|
+https://drive.google.com/uc?authuser=0&id=1DistOfsMJvPybey7Q8LCe4-jbPrimpFP&export=download;background.png;data/images;false
