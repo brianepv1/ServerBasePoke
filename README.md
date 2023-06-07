@@ -6,7 +6,7 @@
 
 >Some files were deleted or not pushed for the limitations of github
 
-Src folder means all the necessary thing to run your compile base in a windows server (This only work on windows) here a list of things that you can do in this folder:
+Src folder means all the necessary thing to run your compiled base in a windows server (This only work on windows) here a list of things that you can do in this folder:
 
 - Add new feature
 - Fix some bugs
