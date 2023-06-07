@@ -12,8 +12,8 @@ Src folder means all the necessary thing to run your compile base in a windows s
 - Spells
 - Houses
 - Items
-- Etc
 - Database
+- Etc
 
 ## HTDOCS
 
