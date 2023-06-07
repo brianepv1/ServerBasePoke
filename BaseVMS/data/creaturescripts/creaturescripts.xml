@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<creaturescripts>
+
+
+
+<!-- <event type="attack" name="BlockHit" event="script" value="ataque.lua"/> -->
+<event type="combat" name="Ataque" event="script" value="ataque.lua"/>
+
+<event type="kill" name="Monster Hunter" event="script" value="Monster Hunter.lua"/>
+        <event type="login" name="Monster Hunterl" event="script" value="Monster Hunter.lua"/>
+
+     <event type="joinchannel" name="ShowPokedex" event="script" value="newpokedex.lua"/>
+	<event type="leavechannel" name="ClosePokedex" event="script" value="newpokedex.lua"/>
+	<event type="kill" name="pokemons" event="script" value="bosses.lua"/>
+	<event type="login" name="aloot_reg" event="script" value="aloot.lua"/>
+    <event type="kill" name="aloot_kill" event="script" value="aloot.lua"/>
+	<event type="kill" name="dropStone" script="dropStone.lua"/>
+	<event type="login" name="PlayerLogin" event="script" value="login.lua"/>
+ 	<event type="login" name="AntiMc" event="script" value="antimc.lua"/>
+	 	<event type="login" name="staffon" event="script" value="staffon.lua"/>
+		
+	<event type="kill" name="ExpBonus" event="script" value="exp.lua"/>
+    <event type="login" name="ExpVip" event="script" value="vipexp.lua"/>	
+	<!-- <event type="logout" name="flylogoutno" registerTo="player" event="script" value="Flylogout.lua"/> -->
+	<event type="logout" name="surflogoutno" registerTo="player" event="script" value="Surflogout.lua"/>
+	<event type="logout" name="ridelogoutno" registerTo="player" event="script" value="Ridelogout.lua"/>
+	<event type="kill" name="KillTask" event="script" value="task.lua"/>
+	<event type="kill" name="KillTaske" event="script" value="task2.lua"/>
+	<event type="kill" name="KillTask3" event="script" value="task3.lua"/>
+	<event type="kill" name="KillTask4" event="script" value="task4.lua"/>
+	
+	<event type="kill" name="PetKill" event="script" value="pet-creaturescripts.lua"/>
+	<event type="death" name="PetDeath" event="script" value="pet-creaturescripts.lua"/>
+	
+	<event type="target" name="NpcAttack" event="script" value="npcattack.lua"/>
+	
+	
+	<!--GYM-->
+	<!-- <event type="cast" name="Gym1" event="script" value="gym.lua"/> -->
+   <!-- <event type="attack" name="Gym2" event="script" value="gym.lua"/> -->
+   
+   <!-- <event type="direction" name="Gym3" event="script" value="gym.lua"/> -->
+   <!-- <event type="death" name="Gym4" event="script" value="gym.lua"/> -->
+
+        <event type="death" name="ArticunoTeleport" script="tparticuno.lua"/>
+
+		<event type="look" name="vaultLook" event="script" value="vaultLook.lua"/>
+		
+       <event type="death" name="tel" event="script" value="tel.lua"/>
+
+	<event type="receivemail" name="Mail" event="script" value="mail.lua"/>
+
+	<event type="reportbug" name="SaveReportBug" script="reportbug.lua"/>
+    
+	<event type="think" name="Idle" event="script" value="idle.lua"/>
+
+	<event type="death" name="Experience" event="script" value="pokeexp.lua"/>
+
+	<event type="spawn" name="Spawn" event="script" value="spawn.lua"/>
+
+	<event type="think" name="t" event="script" value="wildpoke.lua"/>
+
+	<event type="think" name="PokemonIdle" event="script" value="poketele.lua"/>
+
+	<event type="statschange" name="GeneralConfiguration" event="script" value="exp2.0.lua"/>
+	<event type="advance" name="EffectOnAdvance" event="script" value="levelup.lua"/>
+
+
+	<event type="direction" name="DirectionSystem" event="script" value="wildpoke.lua"/>
+	<event type="attack" name="AttackSystem" event="script" value="wildpoke.lua"/>
+	<event type="cast" name="CastSystem" event="script" value="wildpoke.lua"/>
+	<event type="target" name="WildAttack" event="script" value="playerattack.lua"/>
+	<event type="target" name="WildAttack" event="script" value="playerattack.lua"/>
+	<event type="death" name="tp1" event="script" value="Tp-Celebi.lua"/>
+    <event type="death" name="tp2" event="script" value="Tp-Heatran.lua"/>
+    <event type="death" name="tp3" event="script" value="Tp-Darkrai.lua"/>
+    <event type="death" name="tp4" event="script" value="Tp-Zekrom.lua"/>
+	<event type="death" name="tp5" event="script" value="Tp-Giratina.lua"/>
+	<event type="death" name="tp14" event="script" value="tp-groudon.lua"/>
+	<event type="death" name="tp6" event="script" value="Tp-Arceus.lua"/>
+	<event type="death" name="tp7" event="script" value="Tp-Cresselia.lua"/>	
+	<event type="death" name="tp8" event="script" value="Tp-Terrakion.lua"/>
+	<event type="death" name="tp9" event="script" value="Tp-Ho-oh.lua"/>	
+	<event type="death" name="tp10" event="script" value="Tp-Cobalion.lua"/>
+	<event type="death" name="tp11" event="script" value="Tp-Reshiram.lua"/>
+	<event type="death" name="tp12" event="script" value="Tp-Genesect.lua"/>	
+	<event type="death" name="tp13" event="script" value="Tp-Kyogre.lua"/>
+	<event type="death" name="tp14" event="script" value="Tp-BMewtwo.lua"/>
+	<event type="death" name="tp15" event="script" value="Tp-Regigigas.lua"/>
+	<event type="death" name="tp17" event="script" value="Tp-Regirock.lua"/>
+	<event type="death" name="tp18" event="script" value="Tp-Regice.lua"/>
+	<event type="death" name="tp19" event="script" value="Tp-Registeel.lua"/>
+	<event type="death" name="tp20" event="script" value="Tp-Raikou.lua"/>
+	<event type="death" name="tp21" event="script" value="Tp-Entei.lua"/>
+
+	
+	<event type="death" name="tp16" event="script" value="tparticuno.lua"/>
+	<event type="advance" name="hmup" event="script" value="hmup.lua"/>
+		<event type="login" name="onlinebonus" event="script" value="onlinebonus.lua"/>	
+	<event type="look" name="LookSystem" event="script" value="look.lua"/>
+
+
+	<event type="death" name="SummonDeath" event="script" value="goback.lua"/>
+	<!-- <event type="death" name="effectdeath" event="script" value="effectdeath.lua"/> -->
+	<event type="logout" name="PlayerLogout" event="script" value="goback.lua"/>
+
+	<event type="login" name="report" event="script" value="alerta.lua"/>
+
+
+	<event type="traderequest" name="T2" event="script" value="trade system.lua"/>
+
+	<event type="tradeaccept" name="T1" event="script" value="trade system.lua"/>
+	
+	
+</creaturescripts>

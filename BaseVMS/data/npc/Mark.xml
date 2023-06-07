@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Mark" script="default.lua" walkinterval="1000" floorchange="0" speed="0" skull ="green">
+<health now="150" max="150"/>
+<look type="606" head="91" body="114" legs="86" feet="0"/>
+<parameters>
+<parameter key="message_greet" value="Olá Amigo Consumidor, eu tenho artigos para lhe ajudar em sua jornada, diga {trade}!!"/>
+<parameter key="message_farewell" value="Tchau!"/>
+<parameter key="message_idletimeout" value="Tchau!"/>
+<parameter key="message_walkaway" value="Tchau"/>
+<parameter key="module_shop" value="1"/>
+<parameter key="shop_buyable" value= "poke ball,2394,500;
+great ball,2391,2000;
+super ball,2393,5000;
+ultra ball,2392,13000;
+small potion,12347,500;
+great potion,12348,1000;
+ultra potion,12346,2200;
+hyper potion,12345,5000;
+full restore,12343,10000;
+heart backpack,11115,500;
+fur backpack,7342,500;
+beach backpack,5949,500;
+pirate backpack,5926,500;
+camouflage backpack,3940,500;
+revive,12344,20000;
+medicine,12349,1000;"/>
+<parameter key="shop_sellable" value= "electric box,12176,8000;
+sandbag,12177,8000;
+comb,12179,1000;
+fur,12181,2000;
+ruby,12188,2000;
+essence of fire,12162,2000;
+small stone,12337,2000;
+pot of moss bug,12171,2000;
+screw,12164,2000;
+straw,2694,2500;
+water gems,12161,2000;
+remains of magikarp,12334,2000;
+teeth,12175,2000;
+bottle of poison,12165,2050;
+water pendant,12170,2000;
+feather,12200,2000;
+seed,12163,2000;
+pair of leaves,12155,2000;
+apple bite,12173,2000;
+bat wing,12182,2400;
+pot of lava,12152,2400;
+fire pendant,12286,2000;
+bug venom,12185,2000;
+bug antenna,12184,2000;
+venom pendant,12282,2000;
+pot of venom,12288,2000;
+iron bracelet,12192,2250;
+ice orb,12201,2500;
+gosme,12202,2500;
+darkness gem,12745,2550;
+bug gosme,13783,2500;
+enchanted gem,13785,2550;
+horn,13789,5000;
+essences of darkness,12206,2000;
+darkness gems,12745,2050;
+poisonous dust,12240,2150;
+bag of pollem,12153,2150;"/>
+</parameters>
+</npc>

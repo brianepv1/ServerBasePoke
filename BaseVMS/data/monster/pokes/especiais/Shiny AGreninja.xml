@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny AGreninja" nameDescription="a Shiny AGreninja" race="water" experience="1200" speed="207" manacost="0">
+    <health now="270" max="270"/>
+    <look type="10" head="90" body="100" legs="95" feet="113" corpse="22073"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="1"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+        
+    </flags>
+    <attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+        <attack name="Whirlpool" interval="2899" chance="15" range="6"/>
+        <attack name="Aqua Ring" interval="3899" chance="5" range="6"/>
+        <attack name="Blizzard" interval="3040" chance="20" range="6"/>
+        <attack name="Frost Breath" interval="3275" chance="30" range="2"/>
+        <attack name="Feint Attack" interval="3510" chance="25" range="5"/>
+		<attack name="Fling" interval="4510" chance="24" range="5"/>
+        <attack name="Dark Pulse" interval="3040" chance="20" range="5"/>
+		<attack name="Surf" interval="2705" chance="20" range="3"/>
+		<attack name="Water Pledge" interval="2805" chance="10" range="6"/>
+		<attack name="Icicle Crash" interval="5510" chance="15" range="4"/>
+    </attacks>
+     <defenses armor="0" defense="0">
+	</defenses>
+    <voices interval="5000" chance="10">
+        <voice sentence="ASH GRENINJAAA"/>
+    </voices>
+    <loot>
+        <item id="12338" chance="10" count="1"/> --bag box --bag box
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

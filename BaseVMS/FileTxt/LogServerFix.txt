@@ -1,0 +1,138 @@
+
+[23/10/2022 03:15:38] >> Loading config (config.lua)
+[23/10/2022 03:15:38] > Using SHA1 encryption
+[23/10/2022 03:15:38] >> Loading RSA key
+[23/10/2022 03:15:38] >> Starting SQL connection
+[23/10/2022 03:15:38] >> Running Database Manager
+[23/10/2022 03:15:38] > No tables were optimized.
+[23/10/2022 03:15:38] >> Loading items
+[23/10/2022 03:15:38] [Warning - Items::loadFromXml] No itemid found
+[23/10/2022 03:15:38] [Warning - Items::loadFromXml] No itemid found
+[23/10/2022 03:15:38] [Warning - Items::loadFromXml] Duplicate registered item with id 22826
+[23/10/2022 03:15:39] >> Loading groups
+[23/10/2022 03:15:39] >> Loading vocations
+[23/10/2022 03:15:39] >> Loading script systems
+[23/10/2022 03:15:40] [Warning - Actions::registerEvent] Duplicate registered item with id: 22128, in fromid: 22113 and toid: 22144
+[23/10/2022 03:15:40] [Warning - Actions::registerEvent] Duplicate registered item with id: 22129, in fromid: 22113 and toid: 22144
+[23/10/2022 03:15:42] >> Loading chat channels
+[23/10/2022 03:15:42] >> Loading outfits
+[23/10/2022 03:15:42] >> Loading experience stages
+[23/10/2022 03:15:42] >> Loading monsters
+[23/10/2022 03:15:42] [Warning - Monsters::loadFromXml] Unknown node name (script).
+[23/10/2022 03:15:42] [Error - Monsters::deserializeSpell] Halloween Meloetta - Unknown spell name: Crunchquake
+[23/10/2022 03:15:42] [Warning - Monsters::loadMonster] Cant load spell. (data/monster/pokes/Halloween/Halloween Meloetta.xml)
+[23/10/2022 03:15:42] [Error - Monsters::deserializeSpell] Halloween Meloetta - Unknown spell name: Dracoquake
+[23/10/2022 03:15:42] [Warning - Monsters::loadMonster] Cant load spell. (data/monster/pokes/Halloween/Halloween Meloetta.xml)
+[23/10/2022 03:15:42] [Error - Monsters::deserializeSpell] Halloween Meloetta - Unknown spell name: Firequake
+[23/10/2022 03:15:42] [Warning - Monsters::loadMonster] Cant load spell. (data/monster/pokes/Halloween/Halloween Meloetta.xml)
+[23/10/2022 03:15:42] [Error - Monsters::deserializeSpell] Halloween Hoopa - Unknown spell name: Crunchquake
+[23/10/2022 03:15:42] [Warning - Monsters::loadMonster] Cant load spell. (data/monster/pokes/Halloween/Halloween Hoopa.xml)
+[23/10/2022 03:15:42] [Error - Monsters::deserializeSpell] Halloween Hoopa - Unknown spell name: Dracoquake
+[23/10/2022 03:15:42] [Warning - Monsters::loadMonster] Cant load spell. (data/monster/pokes/Halloween/Halloween Hoopa.xml)
+[23/10/2022 03:15:42] [Error - Monsters::deserializeSpell] Halloween Hoopa - Unknown spell name: Firequake
+[23/10/2022 03:15:42] [Warning - Monsters::loadMonster] Cant load spell. (data/monster/pokes/Halloween/Halloween Hoopa.xml)
+[23/10/2022 03:15:42] [Error - Monsters::deserializeSpell] Rainbow Ditto - Unknown spell name: Crunchquake
+[23/10/2022 03:15:42] [Warning - Monsters::loadMonster] Cant load spell. (data/monster/pokes/Novos Pokemon/Rainbow Ditto.xml)
+[23/10/2022 03:15:42] [Error - Monsters::deserializeSpell] Rainbow Ditto - Unknown spell name: Aqua fun
+[23/10/2022 03:15:42] [Warning - Monsters::loadMonster] Cant load spell. (data/monster/pokes/Novos Pokemon/Rainbow Ditto.xml)
+[23/10/2022 03:15:42] [Error - Monsters::deserializeSpell] Rainbow Ditto - Unknown spell name: Firequake
+[23/10/2022 03:15:42] [Warning - Monsters::loadMonster] Cant load spell. (data/monster/pokes/Novos Pokemon/Rainbow Ditto.xml)
+[23/10/2022 03:15:42] [Error - Monsters::deserializeSpell] Rainbow Ditto - Unknown spell name: Leaf Beam
+[23/10/2022 03:15:42] [Warning - Monsters::loadMonster] Cant load spell. (data/monster/pokes/Novos Pokemon/Rainbow Ditto.xml)
+[23/10/2022 03:15:42] [Error - Monsters::deserializeSpell] Rainbow Ditto - Unknown spell name: Solar Breath
+[23/10/2022 03:15:42] [Warning - Monsters::loadMonster] Cant load spell. (data/monster/pokes/Novos Pokemon/Rainbow Ditto.xml)
+[23/10/2022 03:15:42] [Error - Monsters::deserializeSpell] Guzzlord - Unknown spell name: Crunchquake
+[23/10/2022 03:15:42] [Warning - Monsters::loadMonster] Cant load spell. (data/monster/pokes/Novos Pokemon/Guzzlord.xml)
+[23/10/2022 03:15:42] [Error - Monsters::deserializeSpell] Guzzlord - Unknown spell name: Glaciate
+[23/10/2022 03:15:42] [Warning - Monsters::loadMonster] Cant load spell. (data/monster/pokes/Novos Pokemon/Guzzlord.xml)
+[23/10/2022 03:15:42] [Error - Monsters::deserializeSpell] Guzzlord - Unknown spell name: Dracoquake
+[23/10/2022 03:15:42] [Warning - Monsters::loadMonster] Cant load spell. (data/monster/pokes/Novos Pokemon/Guzzlord.xml)
+[23/10/2022 03:15:43] >> Loading mods...
+[23/10/2022 03:15:43] > Loading classic_changender.xml... done.
+[23/10/2022 03:15:43] > Loading firstitems.xml... done.
+[23/10/2022 03:15:43] > Loading highscorebook.xml... done.
+[23/10/2022 03:15:43] > Loading minimap.xml... done.
+[23/10/2022 03:15:43] > 4 mods were loaded.
+[23/10/2022 03:15:43] >> Loading map and spawns...
+[23/10/2022 03:15:47] > Map size: 2800x2000.
+[23/10/2022 03:15:47] > Map descriptions: 
+[23/10/2022 03:15:47] "Saved with Remere's Map Editor 3.6"
+[23/10/2022 03:15:47] "Map Dash Editadu Por TiIoO"
+[23/10/2022 03:15:52] Duplicate uniqueId 5475
+[23/10/2022 03:15:56] Duplicate uniqueId 12021
+[23/10/2022 03:15:59] Duplicate uniqueId 19456
+[23/10/2022 03:16:08] Duplicate uniqueId 4648
+[23/10/2022 03:16:11] [Warning - IOMap::loadMap] Movable item in house: 892, item type: 22325, pos 1027/1040/3
+[23/10/2022 03:16:11] [Warning - IOMap::loadMap] Movable item in house: 892, item type: 22324, pos 1028/1040/3
+[23/10/2022 03:16:11] [Warning - IOMap::loadMap] Movable item in house: 892, item type: 22315, pos 1031/1040/3
+[23/10/2022 03:16:11] [Warning - IOMap::loadMap] Movable item in house: 892, item type: 23383, pos 1028/1046/3
+[23/10/2022 03:16:11] [Warning - IOMap::loadMap] Movable item in house: 892, item type: 23383, pos 1028/1047/3
+[23/10/2022 03:16:11] [Warning - IOMap::loadMap] Movable item in house: 892, item type: 18783, pos 1037/1045/3
+[23/10/2022 03:16:11] [Warning - IOMap::loadMap] Movable item in house: 892, item type: 18779, pos 1037/1046/3
+[23/10/2022 03:16:11] [Warning - IOMap::loadMap] Movable item in house: 892, item type: 22771, pos 1027/1048/3
+[23/10/2022 03:16:11] [Warning - IOMap::loadMap] Movable item in house: 892, item type: 23383, pos 1028/1049/3
+[23/10/2022 03:16:11] [Warning - IOMap::loadMap] Movable item in house: 892, item type: 23383, pos 1028/1050/3
+[23/10/2022 03:16:11] [Warning - IOMap::loadMap] Movable item in house: 892, item type: 22329, pos 1027/1053/3
+[23/10/2022 03:16:11] [Warning - IOMap::loadMap] Movable item in house: 892, item type: 23819, pos 1028/1055/3
+[23/10/2022 03:16:11] [Warning - IOMap::loadMap] Movable item in house: 892, item type: 24160, pos 1030/1055/3
+[23/10/2022 03:16:11] [Warning - IOMap::loadMap] Movable item in house: 892, item type: 23819, pos 1035/1055/3
+[23/10/2022 03:16:11] [Warning - IOMap::loadMap] Movable item in house: 892, item type: 22470, pos 1036/1052/3
+[23/10/2022 03:16:13] Duplicate uniqueId 15004
+[23/10/2022 03:16:14] Duplicate uniqueId 15005
+[23/10/2022 03:16:14] Duplicate uniqueId 15001
+[23/10/2022 03:16:14] Duplicate uniqueId 15002
+[23/10/2022 03:16:16] [Warning - IOMap::loadMap] Movable item in house: 783, item type: 4822, at position 1400/1581/7
+[23/10/2022 03:16:16] [Warning - IOMap::loadMap] Movable item in house: 783, item type: 4824, at position 1400/1582/7
+[23/10/2022 03:16:16] [Warning - IOMap::loadMap] Movable item in house: 783, item type: 4820, at position 1400/1583/7
+[23/10/2022 03:16:16] [Warning - IOMap::loadMap] Movable item in house: 783, item type: 4820, at position 1401/1581/7
+[23/10/2022 03:16:16] [Warning - IOMap::loadMap] Movable item in house: 783, item type: 4820, at position 1402/1581/7
+[23/10/2022 03:16:16] [Warning - IOMap::loadMap] Movable item in house: 783, item type: 4822, at position 1400/1584/7
+[23/10/2022 03:16:16] [Warning - IOMap::loadMap] Movable item in house: 783, item type: 4820, at position 1400/1585/7
+[23/10/2022 03:16:16] [Warning - IOMap::loadMap] Movable item in house: 783, item type: 4822, at position 1400/1586/7
+[23/10/2022 03:16:19] Duplicate uniqueId 3610
+[23/10/2022 03:16:22] Duplicate uniqueId 3613
+[23/10/2022 03:16:35] > Map loading time: 51.464 seconds.
+[23/10/2022 03:16:36] [Warning - Spawns::loadFromXml] Weepinbell ( 01017 / 01155 / 005 ) spawntime cannot be less than 1 seconds.
+[23/10/2022 03:16:36] [Warning - Spawns::loadFromXml] Weedle ( 01022 / 01123 / 007 ) spawntime cannot be less than 1 seconds.
+[23/10/2022 03:16:36] [Warning - Spawns::loadFromXml] Bellsprout ( 01080 / 01165 / 007 ) spawntime cannot be less than 1 seconds.
+[23/10/2022 03:16:36] [Warning - Spawns::loadFromXml] Bellsprout ( 01080 / 01165 / 007 ) spawntime cannot be less than 1 seconds.
+[23/10/2022 03:16:37] [Warning - Spawns::loadFromXml] Parasect ( 00996 / 01150 / 008 ) spawntime cannot be less than 1 seconds.
+[23/10/2022 03:16:38] [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (870)
+[23/10/2022 03:16:38] [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (881)
+[23/10/2022 03:16:38] [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (882)
+[23/10/2022 03:16:38] [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (883)
+[23/10/2022 03:16:38] [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (884)
+[23/10/2022 03:16:38] [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (885)
+[23/10/2022 03:16:38] [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (886)
+[23/10/2022 03:16:38] [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (887)
+[23/10/2022 03:16:38] [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (888)
+[23/10/2022 03:16:38] [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (889)
+[23/10/2022 03:16:38] [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (890)
+[23/10/2022 03:16:38] [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (891)
+[23/10/2022 03:16:38] > Data parsing time: 3.331 seconds.
+[23/10/2022 03:16:39] > Houses synchronization time: 0.447 seconds.
+[23/10/2022 03:16:40] > Content unserialization time: 1.443 seconds.
+[23/10/2022 03:16:40] >> Checking world type... PvP
+[23/10/2022 03:16:40] >> Initializing game state modules and registering services...
+[23/10/2022 03:16:45] [Warning - Monster::Monster] Unknown event name - tp22
+[23/10/2022 03:16:46] [Warning - Monster::Monster] Unknown event name - Spawn
+[23/10/2022 03:16:47] [Warning - Monster::Monster] Unknown event name - Spawn
+[23/10/2022 03:16:47] [Warning - Monster::Monster] Unknown event name - tp22
+[23/10/2022 03:16:49] [Warning - Monster::Monster] Unknown event name - Spawn
+[23/10/2022 03:16:49] [Warning - Monster::Monster] Unknown event name - tp22
+[23/10/2022 03:16:49] [Warning - Monster::Monster] Unknown event name - tp22
+[23/10/2022 03:16:49] [Warning - Monster::Monster] Unknown event name - tp22
+[23/10/2022 03:16:49] [Warning - Monster::Monster] Unknown event name - tp22
+[23/10/2022 03:16:49] [Warning - Monster::Monster] Unknown event name - tp22
+[23/10/2022 03:16:49] [Warning - Monster::Monster] Unknown event name - tp22
+[23/10/2022 03:16:49] [Warning - Monster::Monster] Unknown event name - tp22
+[23/10/2022 03:16:49] [Warning - Monster::Monster] Unknown event name - tp22
+[23/10/2022 03:16:49] [Warning - Monster::Monster] Unknown event name - tp22
+[23/10/2022 03:16:49] [Warning - Monster::Monster] Unknown event name - tp22
+[23/10/2022 03:16:49] [Warning - Monster::Monster] Unknown event name - tp22
+[23/10/2022 03:16:49] [Warning - Monster::Monster] Unknown event name - tp22
+[23/10/2022 03:16:50] [Warning - Monster::Monster] Unknown event name - Spawn
+[23/10/2022 03:16:50] > Global address: 149.56.141.187
+[23/10/2022 03:16:50] > Local ports: 7171	7172	
+[23/10/2022 03:16:50] >> All modules were loaded, server is starting up...
+[23/10/2022 03:16:50] >> RoX server Online!

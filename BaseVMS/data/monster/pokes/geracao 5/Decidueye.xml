@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Decidueye" nameDescription="a Decidueye" race="grass" experience="1000" speed="237" manacost="0">
+    <health now="130" max="130"/>
+    <look type="5" head="55" body="80" legs="95" feet="113" corpse="21866"/>
+    <targetchange interval="2000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+       
+    </flags>
+    <attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+        <attack name="Invisible" interval="5484" chance="19" range="3"/>
+        <attack name="Hypnosis" interval="3048" chance="15" range="2"/>
+        <attack name="Sleep Powder" interval="3087" chance="25" range="1"/>
+        <attack name="Aerial Ace" interval="4309" chance="28" range="2"/>				
+        <attack name="Petal Dance" interval="5202" chance="20" range="4"/>
+        <attack name="Synthesis" interval="4826" chance="5" range="6"/>
+        <attack name="Leaf Storm" interval="2993" chance="25" range="3"/>
+    </attacks>
+    <defenses armor="0" defense="0">
+	</defenses>
+    <voices interval="5000" chance="10">
+        <voice sentence="Decidueye!"/>
+    </voices>
+    <loot>
+        <item id="12244" chance="70" count="1" countmax="1"/> --ancient stone  
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

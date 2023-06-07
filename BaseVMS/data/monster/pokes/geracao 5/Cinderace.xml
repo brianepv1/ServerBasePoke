@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Cinderace" nameDescription="a Cinderace" race="fire" experience="1100" speed="227" manacost="0">
+    <health now="190" max="190"/>
+  <look type="7" head="65" body="85" legs="95" feet="113" corpse=""/>
+	<targetchange interval="2000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   
+</flags>
+ <attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-26" max="-49"/>
+		<attack name="Quick Attack" interval="5040" chance="25" range="4"/>
+	    <attack name="Blast Burn" interval="2476" chance="26" range="6"/>
+        <attack name="Fire Pledge" interval="2664" chance="30" range="4"/>  
+        <attack name="Focus Blast" interval="3228" chance="20" range="5"/>		
+	    <attack name="Overheat" interval="4840" chance="28" range="6"/>	
+        <attack name="Cross Chop" interval="3604" chance="15" range="3"/>		
+        <attack name="Heat Wave" interval="3228" chance="20" range="3"/>
+		<attack name="Meteor Mash" interval="3510" chance="20" range="6"/>
+		<attack name="Inferno" interval="3510" chance="17" range="6"/>
+		<attack name="Recover" interval="4920" chance="10" range="6"/>
+    </attacks>
+  <voices interval="5000" chance="10">
+	<voice sentence="CIN!"/>
+<voice sentence="DERACEEE"/>
+<voice sentence="CINDERACE!"/>
+  </voices>
+ <loot>
+        <item id="12338" chance="10" count="1"/> --bag box --bag box
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

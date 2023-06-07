@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Guardian Mewtwo" nameDescription="a Guardian mewtwo" race="psychic" experience="1000" speed="30000" manacost="0">
+    <health now="180" max="180" />
+    <look type="68" head="100" body="100" legs="95" feet="113" corpse="24795" />
+    <targetchange interval="2000" chance="0" />
+    <strategy attack="100" defense="0" />
+    <flags>
+        <flag summonable="1" />
+        <flag attackable="1" />
+        <flag hostile="0" />
+        <flag illusionable="0" />
+        <flag convinceable="1" />
+        <flag pushable="0" />
+        <flag canpushitems="1" />
+        <flag canpushcreatures="0" />
+        <flag targetdistance="1" />
+        <flag staticattack="90" />
+        <flag runonhealth="0" />
+
+    </flags>
+    <!-- Unknown attribute type - guardianMoves
+    <guardianMoves>
+        <guardianMove name="physical" interval="2000" chance="1000" range="4" min="-50" max="-100">
+            <attribute key="shootEffect" value="eartharrow" />
+        </guardianMove>
+        <guardianMove name="GBlizzard" interval="0" chance="1000" range="6" />
+        <guardianMove name="GPsychic" interval="0" chance="1000" range="6" />
+    </guardianMoves>
+    -->
+    <attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100" />
+        <attack name="Confusion" interval="4920" chance="100" range="3" />
+        <attack name="Divine Punishment" interval="2010" chance="10" range="6" />
+    </attacks>
+    <defenses armor="0" defense="0" />
+    <voices interval="5000" chance="10">
+        <voice sentence="MEWTWO!" />
+    </voices>
+    <loot></loot>
+    <script>
+        <event name="Spawn" />
+    </script>
+</monster>

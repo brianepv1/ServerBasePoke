@@ -1,0 +1,9 @@
+-- Start Config --
+local topos = {x=1103, y=948, z=8} -- Posição para onde o player será teleportado.
+-- End Config --
+ 
+function onUse(cid)
+   if doTeleportThing(cid, topos) then
+  doPlayerSendTextMessage(cid,20,"Bem Vindo a Area De Quest") -- Menssagem que aparecerá para o player ao ser teleportado.
+ end
+end

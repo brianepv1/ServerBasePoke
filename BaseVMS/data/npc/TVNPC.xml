@@ -1,0 +1,20 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+
+
+<npc name="Frenzi  " speed="0">
+
+
+<health now="8150" max="8150">
+
+
+<look type="614" head="94" body="94" legs="94" feet="94">
+
+
+<parameters>
+
+
+
+</parameters>
+
+
+</look></health></npc>

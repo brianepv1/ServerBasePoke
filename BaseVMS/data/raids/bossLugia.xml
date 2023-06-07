@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raid>
+	<singlespawn delay="10100" name="Boss Lugia" x="1064" y="1055" z="7"/>
+	<effect delay="10100" name="bigclouds" x="1064" y="1055" z="7"/>
+	<singlespawn delay="10100" name="Boss Lugia" x="1066" y="1059" z="7"/>
+	<effect delay="10100" name="bigclouds" x="1064" y="1055" z="7"/>
+	<singlespawn delay="10100" name="Boss Lugia" x="1071" y="1053" z="7"/>
+	<effect delay="10100" name="bigclouds" x="1064" y="1055" z="7"/>
+	<singlespawn delay="10100" name="Boss Lugia" x="1056" y="1053" z="7"/>
+	<effect delay="10100" name="bigclouds" x="1064" y="1055" z="7"/>
+	<singlespawn delay="10100" name="Boss Lugia" x="1047" y="1056" z="7"/>
+	<effect delay="10100" name="bigclouds" x="1064" y="1055" z="7"/>
+	<singlespawn delay="10100" name="Boss Lugia" x="1043" y="1061" z="7"/>
+	<effect delay="10100" name="bigclouds" x="1064" y="1055" z="7"/>
+	<singlespawn delay="10100" name="Boss Lugia" x="1043" y="1061" z="7"/>
+	<effect delay="10100" name="bigclouds" x="1064" y="1055" z="7"/>
+
+</raid>
