@@ -2,6 +2,10 @@
 
 ## Base
 
+### Note:
+
+>Some files were deleted or not pushed for the limitations of github
+
 Src folder means all the necessary thing to run your compile base in a windows server (This only work on windows) here a list of things that you can do in this folder:
 
 - Add new feature
@@ -17,7 +21,7 @@ Src folder means all the necessary thing to run your compile base in a windows s
 
 ## HTDOCS
 
-Means for all the code related to the page, some of the feature are>
+Means for all the code related to the page, some of the feature are:
 
 - Create account
 - List players
